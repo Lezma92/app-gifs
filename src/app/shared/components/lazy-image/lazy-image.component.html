@@ -1,0 +1,4 @@
+<div class="d-flex justify-content-center">
+  <img [src]="url" [alt]="textAlt" class="card-img-top animate__animated animate__fadeIn animate__delay-2s" (load)="onLoad()"/>
+  <img *ngIf="!imgLoad" src="assets/loader.svg"  class="card-img-top bg-black"/>
+</div>

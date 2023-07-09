@@ -1,0 +1,12 @@
+<div class="card border-primary text-center">
+  <div class="card-header">
+
+    <shared-lazy-image
+    [url]="gifs.images.downsized_medium.url"
+    [textAlt]="gifs.title || 'Imagen sin titulo'"
+    ></shared-lazy-image>
+  </div>
+  <div class="card-body text-success">
+    <h5 class="card-title">{{ gifs.title || 'No se encontro titulo'}}</h5>
+  </div>
+</div>
